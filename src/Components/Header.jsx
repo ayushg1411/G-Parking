@@ -34,7 +34,7 @@ const [isLoggedIn, setIsLoggedIn]  =useState(true);
           <Link to="/contact" className="text-gray-800 font-medium hover:text-gray-500 transition">Contact Us</Link>
           <Link to="/profile" className="text-gray-800 font-medium hover:text-gray-500 transition">Profile</Link>
 
-          <Link to="/#" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-xl px-8 py-2 text-center me-2 mb-2">
+          <Link to="/#" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-md dark:shadow-blue-800/80 font-xl rounded-md text-xl px-6 py-2 text-center me-2 mb-2">
            Logout
           </Link>
         </div> :  <div className="md:flex items-center space-x-4">

@@ -11,6 +11,8 @@ import image1 from '../../assets/parking.webp'
 import image2 from '../../assets/parking3.jpg'
 import image3 from '../../assets/parking5.webp'
 import image4 from '../../assets/parking.webp'
+import { IoSearch } from "react-icons/io5";
+
 
 
 
@@ -43,7 +45,9 @@ function Main() {
              onClick={handleclick}
             className="bg-blue-500 text-white px-4 max-md:px-2 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
           >
-            Search
+           <div className='flex'>
+           <h1 className='pt-1 px-1 text-2xl'> <IoSearch /></h1>
+           </div>
           </button>
     
       </div>
@@ -154,6 +158,8 @@ alt="" />
 
 
 <BusinessQuery />
+
+<div className='h-12'></div>
 </section>
 
 </div>

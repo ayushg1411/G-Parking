@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import DatePicker from 'react-datepicker';
+import { IoSearch } from "react-icons/io5";
+
 import 'react-datepicker/dist/react-datepicker.css';
 import ParkingCard from '../Components/LandingScreenComponent/ParkingDetails/ParkingCard';
 import Footer from '../Components/Footer';
@@ -25,7 +27,7 @@ function ParkingDetails() {
 
   return (
     <div className='bg-slate-100'>
-<div className="fixed top-0 left-0 w-full flex items-center justify-between px-4 py-2  bg-purple-600 z-10">
+<div className="fixed top-0 left-0 w-full flex items-center justify-between px-4 py-2  bg-purple-500 z-10">
         <h1 className='text-white font-medium max-md:hidden'>Search for your nearby Parking Spot</h1>
         <input
           type="text"
@@ -56,7 +58,9 @@ function ParkingDetails() {
           onClick={handleSearch}
           className="bg-gray-900 text-white px-4 max-md:px-2 py-2 rounded-md hover:bg-blue-600 hover:text-black transition duration-300"
         >
-          Search
+          <div className='flex'>
+           <h1 className='pt-1 px-1 text-xl'> <IoSearch /></h1>
+           </div>
         </button>
       </div>
       <div className=' h-14'>

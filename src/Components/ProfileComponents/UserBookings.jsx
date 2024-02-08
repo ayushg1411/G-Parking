@@ -1,12 +1,15 @@
 import React from 'react'
-
+import norecord from '../../assets/norecord.avif'
 function UserBookings() {
-  return (
-    <div>
-        <h1>booking of parking</h1>
-      
-    </div>
-  )
+    return (
+       <>
+      <div className='flex justify-center'>
+      <img src={norecord}
+      className='p-'
+      alt="" />
+      </div>
+       </>
+      )
 }
 
 export default UserBookings

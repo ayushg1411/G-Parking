@@ -69,10 +69,10 @@ function Booking() {
             alt="" /> 
             <div className='flex-row w-3/4'>
                 <h1 className='text-gray-700 py-2 text-xl font-bold'> Provided Facilities</h1>
-                <h1 className='text-sm font-sans '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt, minima quisquam reprehenderit eius doloremque ut maxime possimus magni alias eligendi saepe. Exercitationem perferendis cupiditate incidunt reiciendis, iste earum ullam.</h1>
+                <h1 className='text-sm font-sans font-light '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores deserunt, minima quisquam reprehenderit eius doloremque ut maxime possimus magni alias eligendi saepe. Exercitationem perferendis cupiditate incidunt reiciendis, iste earum ullam.</h1>
 
-                <h1 className='text-sm font-sans py-2'>Please park within the timeframe on your pass. Parking outside your timeframe will incur additional fees. The garage allows 10 mins grace period on arrival and departure.</h1>
-                <h1 className='text-xl font-semibold text-green-400 w-3/4'>****</h1>
+                <h1 className='text-sm font-sans py-2 font-light'>Please park within the timeframe on your pass. Parking outside your timeframe will incur additional fees. The garage allows 10 mins grace period on arrival and departure.</h1>
+                <h1 className='text-2xl font-semibold text-green-600 w-3/4'>****</h1>
             </div>
             
 
