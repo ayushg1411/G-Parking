@@ -1,11 +1,11 @@
 // Navbar.js
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '.././assets/logo1.png';
+import logo from '.././assets/tlogo.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-const [isLoggedIn, setIsLoggedIn]  =useState(true);
+const [isLoggedIn, setIsLoggedIn]  =useState(false);
   const handleScroll = () => {
     const scrollTop = window.scrollY;
     setIsScrolled(scrollTop > 5);
